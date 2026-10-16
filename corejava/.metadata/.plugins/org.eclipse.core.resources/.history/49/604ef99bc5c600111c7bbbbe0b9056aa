@@ -1,0 +1,39 @@
+
+public class Studentclass {
+	
+	
+	int stid;
+	String sname;
+	int marks;
+	String cname;
+	String clgname;
+	String pname;
+	
+	
+	
+	
+    void studentDisplay() {
+		System.out.println(stid);
+		System.out.println(sname);
+		System.out.println(marks);
+		System.out.println(cname);
+	}
+	
+    void collegeDetails() {
+    	System.out.println(clgname);
+    	System.out.println(pname);
+    }
+	
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+ 
+	}
+
+}
+

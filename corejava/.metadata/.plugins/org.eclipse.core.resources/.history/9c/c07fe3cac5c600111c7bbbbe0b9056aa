@@ -1,0 +1,50 @@
+
+public class Studentclass {
+	
+	
+	int stid;
+	String sname;
+	int marks;
+	String cname;
+	String clgname;
+	String pname;
+	
+	
+	
+	
+    void studentDisplay() {
+		System.out.println(stid);
+		System.out.println(sname);
+		System.out.println(marks);
+		System.out.println(cname);
+	}
+	
+    void collegeDetails() {
+    	System.out.println(clgname);
+    	System.out.println(pname);
+    }
+	
+	void changePrincipalNAme() {
+		
+	}
+	public static void main(String[] args) {
+ 
+		Studentclass sc=new Studentclass();
+		sc.stid=1;
+		sc.sname="Mahesh";
+		sc.marks=100;
+		sc.clgname="GNU";
+		sc.cname="CSE";
+		sc.pname="Narayana";
+		
+		sc.studentDisplay();
+		sc.collegeDetails();
+		
+		
+		
+		
+		
+	}
+
+}
+

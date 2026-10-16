@@ -1,0 +1,12 @@
+package com.javaintroduction;
+
+public class Stuydent {
+	
+	int rollno = 1;
+	String studentName = "mahes" ;
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.javaintroduction;
+
+//class
+public class Stuydent {
+	
+
+	// main method
+	public static void main(String[] args) {
+		
+		//variables
+		int rollno = 1;
+		String studentName = "mahes";
+		int age=21;
+		char gender='m';
+		char section='A';
+		int marks=100;	
+		
+		
+		//printing
+		System.out.println(rollno);
+		
+		
+		
+		
+
+	}
+
+}

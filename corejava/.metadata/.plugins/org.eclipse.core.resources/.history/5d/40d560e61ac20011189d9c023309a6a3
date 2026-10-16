@@ -1,0 +1,39 @@
+public class Cricketers{
+
+
+static String cricketerboard;
+static String countryname ;
+
+String cricketername;
+int age;
+int score;
+public static void main (String  args[]) {
+	 
+	Cricketers a=new Cricketers();
+	cricketerboard="BCCI";
+	countryname="INDIA";
+	
+	a.cricketername="virat";
+	a.age=40;
+	a.score=100;
+	
+	System.out.println(cricketerboard);
+	System.out.println(countryname);
+	System.out.println(a.cricketername);
+	System.out.println(a.age);
+	System.out.println(a.score);
+	
+	
+			
+	
+	
+			
+	
+	
+}
+
+
+
+}
+
+
